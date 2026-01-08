@@ -31,7 +31,7 @@ class AnyLine:
     def load_model(self):
         subfolder = "Anyline"
         checkpoint_filename = "MTEED.pth"
-        checkpoint_dir = Path(__file__).parent.resolve() / "checkpoints" / subfolder
+        checkpoint_dir = Path(__file__).parent.resolve() / "checkpoints"
         checkpoint_path = checkpoint_dir / checkpoint_filename
 
         # Download the model if it's not present
